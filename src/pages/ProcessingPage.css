@@ -1,0 +1,246 @@
+/* ═══════════════════════════════════════════════════════════════
+   PROCESSING PAGE — Warm Beige Theme
+   ═══════════════════════════════════════════════════════════════ */
+.proc-page {
+  position: fixed;
+  inset: 0;
+  background: var(--bg-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 50;
+}
+
+/* ── Ambient Orbs ─────────────────────────────────────────── */
+.proc-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+}
+
+.proc-orb-1 {
+  width: 480px; height: 480px;
+  background: radial-gradient(circle, rgba(91, 141, 239, 0.15), transparent 70%);
+  top: -160px; left: -160px;
+  animation: orbFloat 9s ease-in-out infinite;
+}
+
+.proc-orb-2 {
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(76, 175, 125, 0.12), transparent 70%);
+  bottom: -140px; right: -140px;
+  animation: orbFloat 11s ease-in-out infinite reverse;
+}
+
+/* ── Card ─────────────────────────────────────────────────── */
+.proc-card {
+  position: relative;
+  z-index: 2;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-2xl);
+  padding: 44px 48px;
+  max-width: 520px;
+  width: calc(100% - 40px);
+  box-shadow: var(--shadow-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  animation: scaleIn 0.5s var(--ease-spring);
+}
+
+/* ── Icon ─────────────────────────────────────────────────── */
+.proc-icon-wrap {
+  position: relative;
+  width: 90px; height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.proc-icon-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1.5px solid;
+  animation: spin linear infinite;
+}
+
+.ring-a {
+  inset: 0;
+  border-color: rgba(91, 141, 239, 0.35);
+  animation-duration: 4s;
+}
+
+.ring-b {
+  inset: 12px;
+  border-color: rgba(76, 175, 125, 0.30);
+  animation-duration: 6s;
+  animation-direction: reverse;
+}
+
+.proc-icon-wrap.done .ring-a { border-color: rgba(76, 175, 125, 0.50); }
+.proc-icon-wrap.done .ring-b { border-color: rgba(91, 141, 239, 0.30); }
+
+.proc-icon-emoji {
+  font-size: 2rem;
+  position: relative;
+  z-index: 1;
+  animation: pulse 2.2s ease-in-out infinite;
+}
+
+/* ── Text ─────────────────────────────────────────────────── */
+.proc-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-align: center;
+  margin-top: -8px;
+}
+
+.proc-subtitle {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: -16px;
+  line-height: 1.65;
+}
+
+/* ── Progress ─────────────────────────────────────────────── */
+.proc-progress {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.proc-bar-track {
+  flex: 1;
+  height: 7px;
+  background: var(--bg-warm);
+  border-radius: 100px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.proc-bar-fill {
+  height: 100%;
+  border-radius: 100px;
+  background: linear-gradient(90deg, #5B8DEF, #4CAF7D);
+  transition: width 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 8px rgba(91, 141, 239, 0.4);
+}
+
+.proc-pct {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  min-width: 36px;
+  text-align: right;
+}
+
+/* ── Steps ────────────────────────────────────────────────── */
+.proc-steps {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+}
+
+.proc-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 13px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  transition: all var(--ease);
+  animation: slideRight 0.4s var(--ease) both;
+}
+
+.proc-step.step-active {
+  background: var(--info-light);
+  border-color: var(--info-border);
+}
+
+.proc-step.step-done {
+  background: var(--safe-light);
+  border-color: var(--safe-border);
+}
+
+.proc-step.step-pending {
+  opacity: 0.40;
+}
+
+/* ── Step Dot ─────────────────────────────────────────────── */
+.proc-step-dot {
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: var(--bg-warm);
+  border: 1.5px solid var(--border);
+  transition: all var(--ease);
+}
+
+.proc-step.step-active .proc-step-dot {
+  background: var(--info);
+  border-color: var(--info);
+}
+
+.proc-step.step-done .proc-step-dot {
+  background: var(--safe);
+  border-color: var(--safe);
+}
+
+.dot-check  { color: #fff; font-size: 0.85rem; }
+.dot-num    { color: var(--text-muted); font-size: 0.75rem; }
+.dot-spinner {
+  width: 14px; height: 14px;
+  border: 2px solid rgba(91, 141, 239, 0.30);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+/* ── Step Body ────────────────────────────────────────────── */
+.proc-step-body { flex: 1; }
+
+.proc-step-label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.proc-step-emoji { font-size: 0.95rem; }
+
+.proc-step-detail {
+  font-size: 0.78rem;
+  color: var(--info);
+  margin-top: 4px;
+  line-height: 1.55;
+}
+
+.proc-step-done {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--safe);
+  margin-top: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 560px) {
+  .proc-card { padding: 32px 24px; }
+}

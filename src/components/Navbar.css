@@ -1,0 +1,206 @@
+/* ═══════════════════════════════════════════════════════════════
+   NAVBAR — Warm Clinical Light Theme
+   ═══════════════════════════════════════════════════════════════ */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 1px 0 var(--border-subtle), var(--shadow-xs);
+}
+
+.navbar-inner {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 32px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+/* ── Brand ──────────────────────────────────────────────── */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 6px 8px;
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+  transition: background var(--ease);
+}
+
+.navbar-brand:hover { background: var(--bg-muted); }
+
+.brand-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #4A7EE0, #5B8DEF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(91, 141, 239, 0.38);
+  flex-shrink: 0;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.brand-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.brand-tagline {
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+/* ── Step Indicator ─────────────────────────────────────── */
+.nav-steps {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  list-style: none;
+  flex: 1;
+  justify-content: center;
+  max-width: 560px;
+}
+
+.step-connector {
+  flex: 1;
+  height: 1.5px;
+  background: var(--border);
+  max-width: 40px;
+  transition: background var(--ease-slow);
+}
+
+.step-connector.filled { background: var(--info); }
+
+.nav-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all var(--ease);
+  border-radius: var(--radius-sm);
+}
+
+.nav-step:hover:not(.active) { background: var(--bg-muted); }
+
+.step-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: var(--bg-warm);
+  border: 1.5px solid var(--border);
+  color: var(--text-muted);
+  transition: all var(--ease);
+}
+
+.nav-step.active .step-circle {
+  background: var(--info);
+  border-color: var(--info);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(91, 141, 239, 0.40);
+}
+
+.nav-step.past .step-circle {
+  background: var(--safe-light);
+  border-color: var(--safe);
+  color: var(--safe);
+}
+
+.step-label {
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  letter-spacing: 0.2px;
+  transition: color var(--ease);
+}
+
+.nav-step.active .step-label { color: var(--info);  font-weight: 600; }
+.nav-step.past  .step-label  { color: var(--safe);  }
+
+/* ── Right side ─────────────────────────────────────────── */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.live-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--safe-light);
+  border: 1px solid var(--safe-border);
+  border-radius: 100px;
+  padding: 4px 11px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--safe);
+  letter-spacing: 0.5px;
+}
+
+.live-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--safe);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.nav-time {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  background: var(--bg-warm);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 4px 10px;
+}
+
+/* ── Responsive ─────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .navbar-inner { padding: 0 16px; }
+  .nav-steps { max-width: 400px; }
+}
+
+@media (max-width: 680px) {
+  .step-label, .brand-tagline, .nav-time { display: none; }
+  .nav-steps { gap: 2px; }
+  .step-connector { max-width: 20px; }
+}
+
+@media (max-width: 480px) {
+  .nav-steps { display: none; }
+  .live-pill span:last-child { display: none; }
+}

@@ -7,7 +7,16 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Dependencies
+node_modules/
+.pnp
+
+# Environment variables (keep secrets out of git!)
+.env
+.env.*
+!.env.example
+server/.env
+
 dist
 dist-ssr
 *.local
@@ -16,6 +25,12 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+# Uploaded files (binary PDFs etc.)
+server/uploads/
+
+# Duplicate folders from Windows copy-paste
+"* (1)"
 .DS_Store
 *.suo
 *.ntvs*

@@ -1,3 +1,12 @@
+🔐 Demo Access
+
+You can try the application using demo credentials:
+
+Username: user  
+Password: login123
+
+Note: These are public demo credentials for testing purposes only.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

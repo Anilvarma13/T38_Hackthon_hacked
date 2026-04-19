@@ -1,0 +1,1186 @@
+[
+  {
+    "patient_name": "DUMMY",
+    "age": 25,
+    "gender": "Male",
+    "report_date": "23/07/2024",
+    "vitals": {
+      "hemoglobin": "Not available",
+      "bloodPressure": "Not available",
+      "sugarLevel": "Not available (Fasting Glucose result missing)",
+      "oxygenLevel": "Not available",
+      "heartRate": "Not available",
+      "cholesterol": "Total Cholesterol: Not available (Reference: <200 mg/dL), Triglycerides: Not available (Reference: <150 mg/dL), HDL Cholesterol: Not available (Reference: >40 mg/dL), LDL Cholesterol (Direct): Not available (Reference: <100 mg/dL), LDL Cholesterol (Calculated): Not available (Reference: <100.00 mg/dL), VLDL Cholesterol: Not available (Reference: <30 mg/dL), Non-HDL Cholesterol: Not available (Reference: <130 mg/dL), Apolipoprotein B (Apo B): 46.00 mg/dL (Reference: 46 - 174 mg/dL), Lipoprotein(a) (Lp(a)): Not available (Reference: <20 mg/dL)",
+      "diagnosis": "Potential average cardiovascular risk based on hsCRP level. Overall cardiovascular risk assessment is limited due to missing key metabolic and lipid profile results.",
+      "notes": "CARDIO C-REACTIVE PROTEIN (hsCRP) result of 1.00 mg/L indicates 'Average Cardiovascular Risk' according to the provided interpretation table (where <1.00 mg/L is Low Risk). TROPONIN- I, HIGH SENSITIVE (hsTnI) result of 4 ng/L for a male is considered 'Low Risk' (Reference: <6 ng/L). Any condition causing myocardial injury can increase hsTnI levels, so results should be interpreted with ECG, clinical observations, and symptoms. False positive hsTnI results are possible with Rheumatoid factor and heterophile antibodies. The Lipid Association of India (LAI) recommends screening all adults over 20 for Atherosclerotic Cardiovascular Disease (ASCVD) risk factors, especially lipid profile, with earlier screening for those with family history of premature heart disease, dyslipidemia, or obesity. Indians are at a higher risk of developing ASCVD at an earlier age with more severe outcomes. ASCVD risk helps identify asymptomatic high-risk individuals and guides treatment goals.",
+      "prescriptions": [],
+      "recommendedTests": [
+        "Retest hsCRP levels 2 or more weeks apart and calculate the average to obtain a more robust assessment of vascular risk.",
+        "Consider three serial samples 1 week apart for Total Cholesterol, Triglycerides, HDL, and LDL Cholesterol to mitigate physiological and analytical variations."
+      ]
+    },
+    "risks": [],
+    "risk_score": "MODERATE",
+    "critical_alerts": [],
+    "missed_actions": [
+      {
+        "task": "Perform follow-up hsCRP tests.",
+        "reason": "The report explicitly recommends retesting hsCRP levels 2 or more weeks apart to calculate an average for vascular risk assessment, but no such follow-up is indicated."
+      },
+      {
+        "task": "Obtain serial lipid profile measurements.",
+        "reason": "The report suggests that three serial samples a week apart are recommended for several lipid parameters due to inherent variations, but only single, unmeasured lipid profile entries are provided."
+      }
+    ],
+    "ai_summary": "The patient, a 25-year-old male, underwent a heart health screening. The report indicates an average cardiovascular risk based on an hsCRP level of 1.00 mg/L. The hsTroponin-I level is within the low-risk range at 4 ng/L. However, a comprehensive risk assessment is severely limited by the absence of results for several critical parameters, including Hemoglobin, Blood Pressure, Fasting Glucose, Oxygen Level, Heart Rate, and the full lipid profile components (Total Cholesterol, Triglycerides, HDL, LDL, VLDL, Non-HDL Cholesterol, Lp(a)). The report itself recommends retesting hsCRP for a more accurate vascular risk assessment and considering serial lipid profile measurements due to potential variations. The identified average cardiovascular risk from hsCRP suggests that further investigation and a holistic clinical evaluation are warranted.",
+    "_id": "927f8lpvtoe",
+    "created_at": "2026-04-11T09:44:12.281Z"
+  },
+  {
+    "patient_name": "DUMMY",
+    "age": 25,
+    "gender": "Male",
+    "report_date": "23/07/2024",
+    "vitals": {
+      "hemoglobin": "Not reported",
+      "bloodPressure": "Not reported",
+      "sugarLevel": "Not reported (Reference: 70-100 mg/dL)",
+      "oxygenLevel": "Not reported",
+      "heartRate": "Not reported",
+      "cholesterol": "Not reported (Reference ranges: Total <200 mg/dL, Triglycerides <150 mg/dL, HDL >40 mg/dL, LDL <100 mg/dL, VLDL <30 mg/dL, Non-HDL <130 mg/dL)",
+      "diagnosis": "Cardiovascular risk stratification based on hsCRP and hsTnI; no definitive medical diagnosis provided.",
+      "notes": "To assess vascular risk, it is recommended to test hsCRP levels 2 or more weeks apart and calculate the average. High sensitivity C-Reactive Protein (hsCRP) significantly improves cardiovascular risk assessment as it is a strong predictor of future coronary events, myocardial infarction, and stroke, independent of traditional risk factors. It also identifies patients at risk of first myocardial infarction even with low to moderate lipid levels, and correlates with recurrent cardiovascular events and incident Diabetes. Any condition resulting in myocardial injury can potentially increase high sensitivity Troponin-I (hsTnI) levels, so results should be used with other information like ECG, clinical observations, and symptoms. False positive hsTnI results can occur with Rheumatoid factor and heterophile antibodies. hsTnI assay is recommended for cardiovascular disease (CVD) risk stratification in asymptomatic individuals, detecting very low concentrations of cardiac troponin. Lipid measurements can show physiological and analytical variations; three serial samples one week apart are recommended for Total Cholesterol, Triglycerides, HDL, and LDL Cholesterol. The Lipid Association of India (LAI) recommends screening all adults over 20 for Atherosclerotic Cardiovascular Disease (ASCVD) risk factors (especially lipid profile), or earlier with family history of premature heart disease, dyslipidemia, obesity, or other risk factors. Indians are at very high risk of developing ASCVD, often at an early age with more severe forms and poorer outcomes than Western populations. ASCVD risk helps identify high-risk individuals even without symptoms and guides therapy decisions and treatment goals.",
+      "prescriptions": [],
+      "recommendedTests": [
+        "Repeat hsCRP measurement after 2 or more weeks to calculate an average for a more comprehensive vascular risk assessment.",
+        "Obtain specific quantitative results for all lipid profile components (Total Cholesterol, Triglycerides, HDL, LDL, VLDL, Non-HDL Cholesterol).",
+        "Consider collecting three serial lipid profile samples one week apart for improved accuracy of cholesterol measurements.",
+        "Annual follow-up for hsTnI; reassessment every 6-12 months should be considered if other cardiovascular risk factors or comorbidities are present.",
+        "Obtain Hemoglobin, Blood Pressure, Oxygen Level, and Fasting Sugar Level measurements for a complete health overview."
+      ]
+    },
+    "risks": [],
+    "risk_score": "MODERATE",
+    "critical_alerts": [
+      {
+        "title": "Missing Key Biomarkers",
+        "dataPoint": "Hemoglobin, Blood Pressure, Oxygen Level, Fasting Sugar Level, Quantitative Cholesterol Profile",
+        "explanation": "The report lacks specific measurements for several crucial health indicators including Hemoglobin, Blood Pressure, Oxygen Level, and exact quantitative results for the complete Cholesterol profile and Fasting Sugar Level. These are essential for a thorough and comprehensive health and risk assessment based on established guidelines.",
+        "level": "warning"
+      }
+    ],
+    "missed_actions": [
+      {
+        "task": "Obtain quantitative values for all lipid profile components (Total Cholesterol, Triglycerides, HDL, LDL, VLDL, Non-HDL Cholesterol).",
+        "reason": "Only reference intervals were provided, hindering a complete assessment of lipid-related cardiovascular risk factors."
+      },
+      {
+        "task": "Measure Hemoglobin, Blood Pressure, Oxygen Level, and Fasting Sugar Level.",
+        "reason": "These are fundamental health parameters crucial for a comprehensive risk evaluation and were not included in the report."
+      }
+    ],
+    "ai_summary": "This 25-year-old male patient underwent an advanced heart health screening on 23/07/2024. Key findings include a Cardio C-Reactive Protein (hsCRP) level of 1.00 mg/L, which places him at the threshold for 'Average Cardiovascular Risk'. High Sensitivity Troponin-I (hsTnI) is 4 ng/L, indicating 'Low CVD Risk'. Apolipoprotein B (Apo B) is at the lower end of the normal range (46.00 mg/dL), and Lipoprotein(a) [Lp(a)] is optimal (<20 mg/dL). However, the report is critically incomplete, lacking quantitative results for the full lipid profile (Total Cholesterol, Triglycerides, HDL, LDL, VLDL, Non-HDL Cholesterol), Fasting Glucose, Hemoglobin, Blood Pressure, and Oxygen Level. This significant data gap limits a comprehensive health and risk assessment. The overall risk is assessed as MODERATE primarily due to the borderline hsCRP and the absence of critical data points. Recommended actions include repeat hsCRP measurements, obtaining complete and quantitative lipid profiles (potentially serial samples), and measuring other missing vital signs for a thorough health overview.",
+    "_id": "bd0s33p352r",
+    "created_at": "2026-04-11T09:53:08.550Z"
+  },
+  {
+    "patient_name": "DUMMY",
+    "age": 25,
+    "gender": "Male",
+    "report_date": "23/07/2024",
+    "vitals": {
+      "hemoglobin": "Not available",
+      "bloodPressure": "Not available",
+      "sugarLevel": "Not available",
+      "oxygenLevel": "Not available",
+      "heartRate": "Not available",
+      "cholesterol": "Not available",
+      "diagnosis": "No explicit diagnosis provided.",
+      "notes": "Patient's Cardio C-Reactive Protein (hsCRP) is 1.00 mg/L, indicating an average cardiovascular risk. The report recommends retesting hsCRP levels 2 or more weeks apart and calculating an average for a more comprehensive vascular risk assessment. hsCRP is noted as a strong predictor of future coronary events, myocardial infarction, stroke, and incident diabetes. High-sensitivity Troponin-I (hsTnI) is 4 ng/L, which is considered low risk for cardiac injury in males, but results should be interpreted with other clinical information like ECG and symptoms. The report highlights that physiological and analytical variations can occur in lipid profile measurements, recommending three serial samples one week apart for Total Cholesterol, Triglycerides, HDL, and LDL Cholesterol. The Lipid Association of India (LAI) advises screening all adults over 20 for Atherosclerotic Cardiovascular Disease (ASCVD) risk factors, especially lipid profiles, noting that Indians face a very high risk of early-onset, severe ASCVD with poorer outcomes.",
+      "prescriptions": [],
+      "recommendedTests": [
+        "Repeat hsCRP levels (2 or more weeks apart) to calculate an average for a more accurate vascular risk assessment.",
+        "Obtain three serial samples (1 week apart) for Total Cholesterol, Triglycerides, HDL, and LDL Cholesterol to account for physiological and analytical variations.",
+        "Annual follow-up for hsTnI due to current low-risk assessment.",
+        "Screening for Atherosclerotic Cardiovascular Disease (ASCVD) risk factors, particularly lipid profile, is recommended for all adults over 20 years, or earlier if there's a family history of premature heart disease, dyslipidemia, obesity, or other risk factors."
+      ]
+    },
+    "risks": [],
+    "risk_score": "MODERATE",
+    "critical_alerts": [],
+    "missed_actions": [
+      {
+        "task": "Obtain Fasting Glucose result",
+        "reason": "The fasting glucose test was listed but the result is missing from the report."
+      },
+      {
+        "task": "Obtain complete Lipid Profile results",
+        "reason": "Results for Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol (Direct and Calculated), VLDL Cholesterol, Non-HDL Cholesterol, and Lipoprotein(a) are missing, preventing a full lipid profile assessment."
+      },
+      {
+        "task": "Schedule repeat hsCRP test",
+        "reason": "The report recommends repeating hsCRP levels 2 or more weeks apart to calculate an average for vascular risk assessment, which has not yet been done for this patient."
+      },
+      {
+        "task": "Schedule serial lipid profile samples",
+        "reason": "The report notes recommend obtaining three serial samples one week apart for Total Cholesterol, Triglycerides, HDL, and LDL Cholesterol to mitigate physiological and analytical variations, which has not been done."
+      }
+    ],
+    "ai_summary": "The medical report for a 25-year-old male indicates a moderate cardiovascular risk, primarily driven by a Cardio C-Reactive Protein (hsCRP) level of 1.00 mg/L, which falls within the 'Average Cardiovascular Risk' category. High-sensitivity Troponin-I (hsTnI) is within the low-risk range, suggesting no immediate cardiac injury. However, a significant limitation is the absence of results for several crucial biomarkers, including fasting glucose and a comprehensive lipid profile (Total Cholesterol, Triglycerides, HDL, LDL, VLDL, Non-HDL, Lipoprotein(a)). This missing data prevents a complete and accurate cardiovascular risk assessment. Key recommendations from the report include repeating hsCRP levels for an averaged assessment and obtaining serial lipid profile samples to improve accuracy. Due to the average risk and missing data, further investigations and lifestyle modifications are advisable.",
+    "_id": "htrlyxqdt8f",
+    "created_at": "2026-04-11T09:59:42.676Z"
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRAN",
+    "age": "25",
+    "gender": "Male",
+    "report_date": "23/7/2024",
+    "vitals": {},
+    "clinical_snapshot": {
+      "hemoglobin": "Not Reported",
+      "blood_pressure": "Not Reported",
+      "sugar": "Not Reported",
+      "oxygen": "Not Reported",
+      "heart_rate": "Not Reported",
+      "cholesterol": "Not Reported",
+      "notes": "CARDIO CRP IN mg/L | CARDIOVASCULAR RISK 10 | Persistent elevation may represent Non cardiovascular inflammation. To assess vascular risk, it is recommended to test hsCRP levels 2 or more weeks apart and calculate the average. High sensitivity C Reactive Protein (hsCRP) significantly improves cardiovascular risk assessment as it is a strongest predictor of future coronary events. It reveals the risk of future Myocardial infarction and Stroke among healthy men and women, independent of traditional risk factors. It identifies patients at risk of first Myocardial infarction even with low to moderate lipid levels. The risk of recurrent cardiovascular events also correlates well with hsCRP levels. It is a powerful independent risk determinant in the prediction of incident Diabetes. Measurements in the same patient can show physiological & analytical variations. Three serial samples 1 week apart are recommended for Total Cholesterol, Triglycerides, HDL & LDL Cholesterol. Lipid Association of India (LAI) recommends screening of all adults above the age of 20 years for Atherosclerotic Cardiovascular Disease (ASCVD) risk factors especially lipid profile. Indians are at very high risk of developing ASCVD, they usually get the disease at an early age, have a more severe form of the disease and have poorer outcome as compared to the western populations. Many individuals remain asymptomatic before they get heart attack, ASCVD risk helps to identify high risk individuals even when there is no symptom related to heart disease. ASCVD risk category helps clinician to decide when to consider therapy and what should be the treatment goal.",
+      "prescriptions": [],
+      "recommended_tests": [
+        "Retest hsCRP levels 2 or more weeks apart to calculate the average for vascular risk assessment.",
+        "Three serial samples (1 week apart) for Total Cholesterol, Triglycerides, HDL & LDL Cholesterol are recommended.",
+        "Screening for Atherosclerotic Cardiovascular Disease (ASCVD) risk factors, especially lipid profile, is recommended by Lipid Association of India (LAI) for all adults above 20 years."
+      ]
+    },
+    "risks": [
+      {
+        "type": "Elevated hsCRP",
+        "severity": "HIGH",
+        "value": "CARDIO C-REACTIVE PROTEIN (hsCRP): 1.00 mg/L",
+        "normal_range": "",
+        "explanation": "This level is at the lower end of the 'Average' cardiovascular risk category (1-3 mg/L) and slightly exceeds the low-risk threshold (<1.00 mg/L). Further assessment with serial testing is recommended."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "CARDIO C-REACTIVE PROTEIN (hsCRP) is 1.00 mg/L (Normal:  Indicates average cardiovascular risk (Interpretation: 1-3 mg/L = Average)."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Patient is of Indian origin, a population identified to be at very high risk of developing Atherosclerotic Cardiovascular Disease (ASCVD) at an early age with severe outcomes."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Comprehensive lipid profile and fasting glucose results are not reported, limiting a full cardiovascular risk assessment."
+      }
+    ],
+    "missed_actions": [
+      "Perform serial hsCRP levels testing — The report recommends testing hsCRP levels 2 or more weeks apart to calculate the average for vascular risk assessment, but only a single measurement is provided.",
+      "Perform serial lipid profile testing — The report recommends three serial samples 1 week apart for Total Cholesterol, Triglycerides, HDL & LDL Cholesterol to account for physiological and analytical variations, but no specific results are reported.",
+      "Report specific results for lipid profile and fasting glucose — The report only provides reference intervals for various lipid parameters and fasting glucose, without actual measured values, preventing a comprehensive assessment."
+    ],
+    "risk_score": "MODERATE",
+    "ai_summary": "The patient, a 25-year-old male of Indian origin, presents with an elevated CARDIO C-REACTIVE PROTEIN (hsCRP) level of 1.00 mg/L, placing him in the 'Average' cardiovascular risk category according to the report's interpretation. Apolipoprotein B is within normal limits. A significant limitation of this report is the absence of specific numeric results for several key biomarkers, including hemoglobin, fasting glucose, and a complete lipid profile (Total Cholesterol, HDL, LDL, Triglycerides, VLDL, Non-HDL Cholesterol), which are crucial for a thorough cardiovascular risk assessment. The report highlights that individuals of Indian origin are inherently at a very high risk for Atherosclerotic Cardiovascular Disease (ASCVD). To gain a clearer understanding of the patient's cardiovascular health, it is strongly recommended to perform serial hsCRP tests and obtain actual measured values for the complete lipid profile and fasting glucose.",
+    "critical_alerts": [
+      {
+        "title": "Elevated hsCRP",
+        "dataPoint": "CARDIO C-REACTIVE PROTEIN (hsCRP): 1.00 mg/L",
+        "explanation": "This level is at the lower end of the 'Average' cardiovascular risk category (1-3 mg/L) and slightly exceeds the low-risk threshold (<1.00 mg/L). Further assessment with serial testing is recommended.",
+        "level": "warning"
+      }
+    ],
+    "created_at": "2026-04-11T10:12:59.393Z",
+    "_id": "fhviin8yw9s",
+    "id": "xzdtz2u01v"
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRAN",
+    "age": "25",
+    "gender": "Male",
+    "report_date": "23/7/2024",
+    "vitals": {
+      "sugar": 70
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "N/A",
+      "blood_pressure": "N/A",
+      "sugar": "Result missing (Reference: 70 - 100 mg/dL)",
+      "oxygen": "N/A",
+      "heart_rate": "N/A",
+      "cholesterol": "Result missing (Reference: <200 mg/dL)",
+      "diagnosis": "Elevated hsCRP indicating average cardiovascular risk. However, critical lipid and glucose values are missing for a complete assessment.",
+      "notes": "APOLIPOPROTEIN B (Apo B) is 46.00 mg/dL, which is at the lower end of the normal range (46 - 174 mg/dL). CARDIO C-REACTIVE PROTEIN (hsCRP) is 1.00 mg/L (normal <1.00 mg/L), indicating average cardiovascular risk based on the provided interpretation (1-3 mg/L). HsCRP significantly improves cardiovascular risk assessment and is a strong predictor of future coronary events, myocardial infarction, stroke, and incident diabetes. Many individuals remain asymptomatic before heart attack; ASCVD risk helps identify high-risk individuals. Indians are at very high risk of developing ASCVD at an early age with poorer outcomes. Lipid Association of India (LAI) recommends screening of all adults above 20 years for ASCVD risk factors, especially lipid profile. Measurements can show physiological & analytical variations. HbA1c and Estimated average glucose (eAG) tests were performed but results are missing.",
+      "prescriptions": [],
+      "recommended_tests": [
+        "Repeat hsCRP levels 2 or more weeks apart to calculate the average.",
+        "Three serial samples 1 week apart for Total Cholesterol, Triglycerides, HDL, and LDL Cholesterol.",
+        "Screening for Atherosclerotic Cardiovascular Disease (ASCVD) risk factors, especially lipid profile."
+      ]
+    },
+    "risks": [
+      {
+        "type": "Elevated hsCRP",
+        "severity": "HIGH",
+        "value": "hsCRP: 1.00 mg/L",
+        "normal_range": "",
+        "explanation": "HsCRP value of 1.00 mg/L indicates an average cardiovascular risk based on the provided interpretation (1-3 mg/L, average risk category)."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "hsCRP is 1.00 mg/L (Normal:  Indicates average cardiovascular risk."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Multiple critical test results for glucose and lipid profile are missing, preventing a comprehensive risk assessment."
+      }
+    ],
+    "missed_actions": [
+      "Obtain Glucose, Fasting result — Result for GLUCOSE, FASTING (F), PLASMA is missing from the report.",
+      "Obtain Cholesterol Total result — Result for Cholesterol Total is missing from the report.",
+      "Obtain Triglycerides result — Result for Triglycerides is missing from the report.",
+      "Obtain HDL Cholesterol result — Result for HDL Cholesterol is missing from the report.",
+      "Obtain LDL Cholesterol, Direct result — Result for LDL Cholesterol, Direct is missing from the report.",
+      "Obtain LDL Cholesterol (Calculated) result — Result for LDL Cholesterol (Calculated) is missing from the report.",
+      "Obtain VLDL Cholesterol (Calculated) result — Result for VLDL Cholesterol (Calculated) is missing from the report.",
+      "Obtain Non-HDL Cholesterol (Calculated) result — Result for Non-HDL Cholesterol (Calculated) is missing from the report.",
+      "Obtain HbA1c result — Result for HbA1c (GLYCOSYLATED HEMOGLOBIN) is missing from the report.",
+      "Obtain Estimated average glucose (eAG) result — Result for Estimated average glucose (eAG) is missing from the report."
+    ],
+    "risk_score": "MODERATE",
+    "ai_summary": "The patient, FAROOQUI UMAR JIBRAN, a 25-year-old male, shows an elevated CARDIO C-REACTIVE PROTEIN (hsCRP) level of 1.00 mg/L, which indicates an average cardiovascular risk. The APOLIPOPROTEIN B (Apo B) level is at the lower end of the normal range. Crucially, results for several key biomarkers including fasting glucose, HbA1c, and a complete lipid profile (Total Cholesterol, Triglycerides, HDL, LDL, VLDL, Non-HDL) are missing from the report, hindering a comprehensive assessment of cardiovascular and metabolic health. Given the elevated hsCRP and the patient's demographic risk (Indian population at high ASCVD risk), further investigation and monitoring are recommended. Recommended actions include repeating hsCRP tests, serial lipid profile measurements, and obtaining the missing glucose and HbA1c results for a complete clinical picture.",
+    "critical_alerts": [
+      {
+        "title": "Elevated hsCRP",
+        "dataPoint": "hsCRP: 1.00 mg/L",
+        "explanation": "HsCRP value of 1.00 mg/L indicates an average cardiovascular risk based on the provided interpretation (1-3 mg/L, average risk category).",
+        "level": "warning"
+      }
+    ],
+    "created_at": "2026-04-11T10:15:22.928Z",
+    "_id": "jhy6h4xcns",
+    "id": "u8um4yvtu2f"
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRAN",
+    "age": "25",
+    "gender": "Male",
+    "report_date": "23/7/2024",
+    "vitals": {},
+    "clinical_snapshot": {
+      "diagnosis": "No explicit diagnosis provided. The hsCRP level indicates an average cardiovascular risk. A comprehensive diagnosis and risk assessment are severely limited due to the absence of results for several key blood tests.",
+      "notes": "APOLIPOPROTEIN B (Apo B) Result: 46.00 mg/dL (Reference: 46 - 174 mg/dL), which is within the normal range.\nCARDIO C-REACTIVE PROTEIN (hsCRP) Result: 1.00 mg/L (Reference: 10 (Persistent elevation may represent Non cardiovascular inflammation).\n- To assess vascular risk, it is recommended to test hsCRP levels 2 or more weeks apart and calculate the average.\n- High sensitivity C Reactive Protein (hsCRP) significantly improves cardiovascular risk assessment as it is a strong predictor of future coronary events, Myocardial infarction, and Stroke, independent of traditional risk factors.\n- Measurements in the same patient can show physiological & analytical variations. Three serial samples 1 week apart are recommended for Total Cholesterol, Triglycerides, HDL & LDL Cholesterol.\n- The Lipid Association of India (LAI) recommends screening of all adults above the age of 20 years for Atherosclerotic Cardiovascular Disease (ASCVD) risk factors, especially lipid profile.\n- Indians are noted to be at very high risk of developing ASCVD, often at an early age, with a more severe disease form and poorer outcomes compared to Western populations. ASCVD risk stratification helps identify high-risk individuals even when asymptomatic and guides treatment goals.",
+      "prescriptions": [],
+      "recommended_tests": [
+        "Follow-up hsCRP levels (2 or more weeks apart) to calculate an average for comprehensive vascular risk assessment.",
+        "Three serial samples (1 week apart) for Total Cholesterol, Triglycerides, HDL Cholesterol, and LDL Cholesterol to account for physiological and analytical variations."
+      ]
+    },
+    "risks": [
+      {
+        "type": "Elevated hsCRP",
+        "severity": "HIGH",
+        "value": "CARDIO C-REACTIVE PROTEIN (hsCRP): 1.00 mg/L",
+        "normal_range": "",
+        "explanation": "The hsCRP level of 1.00 mg/L is at the borderline of the 'low risk' threshold and categorized as 'Average' cardiovascular risk. This biomarker is a significant predictor of future coronary events and warrants attention and follow-up."
+      },
+      {
+        "type": "Incomplete Key Medical Data",
+        "severity": "CRITICAL",
+        "value": "Fasting Glucose, Lipid Profile (Total Cholesterol, Triglycerides, HDL, LDL, VLDL, Non-HDL), and HbA1c results are missing.",
+        "normal_range": "",
+        "explanation": "Results for several crucial biomarkers, including Fasting Glucose, a comprehensive Lipid Profile, and HbA1c, are absent from this report. This prevents a complete assessment of metabolic health, cardiovascular risk, and potential diabetes risk."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "hsCRP is 1.00 mg/L, which indicates an 'Average' cardiovascular risk as per the report's interpretation (Normal: <1.00 mg/L for low risk)."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "The patient is identified as being part of the Indian population, which the report states is at a very high risk of developing ASCVD at an early age."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "A comprehensive risk assessment is hindered by the absence of critical test results, including Fasting Glucose, a full Lipid Profile (Total Cholesterol, Triglycerides, HDL, LDL, VLDL, Non-HDL), and HbA1c. The actual risk could be higher or lower once these parameters are known."
+      }
+    ],
+    "missed_actions": [
+      "Obtain complete results for Fasting Glucose, Lipid Profile, and HbA1c — Crucial biomarker results are missing from the report, preventing a comprehensive medical assessment and risk stratification.",
+      "Schedule follow-up hsCRP test — The report explicitly recommends testing hsCRP levels 2 or more weeks apart to calculate an average for a more accurate vascular risk assessment.",
+      "Schedule serial lipid profile tests — The report recommends three serial samples 1 week apart for Total Cholesterol, Triglycerides, HDL, and LDL Cholesterol due to physiological and analytical variations."
+    ],
+    "risk_score": "MODERATE",
+    "ai_summary": "The patient, FAROOQUI UMAR JIBRAN, a 25-year-old male, has an hsCRP level of 1.00 mg/L, which places him in the 'Average' cardiovascular risk category. His Apolipoprotein B level is within the normal range. A significant limitation of this report is the critical absence of results for several key biomarkers, including Fasting Glucose, a complete Lipid Profile (Total Cholesterol, Triglycerides, HDL, LDL, VLDL, Non-HDL), and HbA1c. This lack of data severely impedes a comprehensive assessment of the patient's metabolic health, diabetes risk, and overall cardiovascular risk. The report explicitly recommends follow-up hsCRP testing (2-3 weeks apart) and serial lipid profile measurements (3 samples, 1 week apart) for a more accurate and comprehensive risk evaluation. Given the patient's age and the noted high ASCVD risk for the Indian population, obtaining these missing results and conducting the recommended follow-up tests are crucial next steps for proper clinical decision-making and risk management.",
+    "critical_alerts": [
+      {
+        "title": "Elevated hsCRP",
+        "dataPoint": "CARDIO C-REACTIVE PROTEIN (hsCRP): 1.00 mg/L",
+        "explanation": "The hsCRP level of 1.00 mg/L is at the borderline of the 'low risk' threshold and categorized as 'Average' cardiovascular risk. This biomarker is a significant predictor of future coronary events and warrants attention and follow-up.",
+        "level": "warning"
+      },
+      {
+        "title": "Incomplete Key Medical Data",
+        "dataPoint": "Fasting Glucose, Lipid Profile (Total Cholesterol, Triglycerides, HDL, LDL, VLDL, Non-HDL), and HbA1c results are missing.",
+        "explanation": "Results for several crucial biomarkers, including Fasting Glucose, a comprehensive Lipid Profile, and HbA1c, are absent from this report. This prevents a complete assessment of metabolic health, cardiovascular risk, and potential diabetes risk.",
+        "level": "critical"
+      }
+    ],
+    "created_at": "2026-04-11T10:58:17.254Z",
+    "_id": "rt8lm9nbzw",
+    "id": "798zas0p0tf",
+    "doctor_notes": [
+      {
+        "note": "provide 2 glucose bottle for this patient",
+        "doctor": "gayatri",
+        "timestamp": "2026-04-11T10:59:51.717Z"
+      }
+    ]
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRAN",
+    "age": "25",
+    "gender": "Male",
+    "report_date": "23/7/2024",
+    "vitals": {
+      "hemoglobin": 1
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "N/A (HbA1c value missing)",
+      "blood_pressure": "N/A",
+      "sugar": "N/A (Fasting Glucose value missing)",
+      "oxygen": "N/A",
+      "heart_rate": "N/A",
+      "cholesterol": "N/A (All lipid profile values missing except Apo B)",
+      "diagnosis": "N/A (Cardiovascular risk assessment ongoing)",
+      "notes": "CARDIO CRP IN mg/L | CARDIOVASCULAR RISK: 10 (Persistent elevation may represent Non cardiovascular inflammation). To assess vascular risk, it is recommended to test hsCRP levels 2 or more weeks apart and calculate the average. High sensitivity C Reactive Protein (hsCRP) significantly improves cardiovascular risk assessment as it is a strongest predictor of future coronary events. It reveals the risk of future Myocardial infarction and Stroke among healthy men and women, independent of traditional risk factors. It identifies patients at risk of first Myocardial infarction even with low to moderate lipid levels. The risk of recurrent cardiovascular events also correlates well with hsCRP levels. It is a powerful independent risk determinant in the prediction of incident Diabetes. Measurements in the same patient can show physiological & analytical variations. Three serial samples 1 week apart are recommended for Total Cholesterol, Triglycerides, HDL & LDL Cholesterol. Lipid Association of India (LAI) recommends screening of all adults above the age of 20 years for Atherosclerotic Cardiovascular Disease (ASCVD) risk factors especially lipid profile. Indians are at very high risk of developing ASCVD, they usually get the disease at an early age, have a more severe form of the disease and have poorer outcome as compared to the western populations. Many individuals remain asymptomatic before they get heart attack, ASCVD risk helps to identify high risk individuals even when there is no symptom related to heart disease. ASCVD risk category helps clinician to decide when to consider therapy and what should be the treatment goal.",
+      "prescriptions": [],
+      "recommended_tests": [
+        "Test hsCRP levels 2 or more weeks apart and calculate the average",
+        "Three serial samples 1 week apart for Total Cholesterol, Triglycerides, HDL & LDL Cholesterol",
+        "Screening for Atherosclerotic Cardiovascular Disease (ASCVD) risk factors especially lipid profile"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Elevated hsCRP",
+        "severity": "HIGH",
+        "value": "CARDIO C-REACTIVE PROTEIN (hsCRP): 1.00 mg/L",
+        "normal_range": "",
+        "explanation": "Cardio C-Reactive Protein (hsCRP) is at the lower boundary of the 'Average' cardiovascular risk category (1-3 mg/L), indicating a slightly elevated risk compared to the 'Low' risk category (<1.00 mg/L)."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "hsCRP is 1.00 mg/L, which falls into the 'Average' cardiovascular risk category (1-3 mg/L) as per the report's interpretation."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Apolipoprotein B (Apo B) is 46.00 mg/dL, which is at the lower normal limit (Reference: 46 - 174 mg/dL)."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Comprehensive risk assessment is severely limited due to numerous missing critical data points, including Fasting Glucose, Total Cholesterol, HDL, LDL, Triglycerides, and HbA1c, which were part of the ordered tests."
+      }
+    ],
+    "missed_actions": [
+      "Obtain Glucose, Fasting (F), Plasma result. — Result is missing from the report.",
+      "Obtain Total Cholesterol result. — Result is missing from the report.",
+      "Obtain Triglycerides result. — Result is missing from the report.",
+      "Obtain HDL Cholesterol result. — Result is missing from the report.",
+      "Obtain LDL Cholesterol, Direct result. — Result is missing from the report.",
+      "Obtain LDL Cholesterol (Calculated) result. — Result is missing from the report.",
+      "Obtain VLDL Cholesterol (Calculated) result. — Result is missing from the report.",
+      "Obtain Non-HDL Cholesterol (Calculated) result. — Result is missing from the report.",
+      "Obtain HbA1c% result. — Result is missing from the report.",
+      "Obtain Estimated average glucose (eAG) result. — Result is missing from the report."
+    ],
+    "risk_score": "MODERATE",
+    "ai_summary": "The patient, FAROOQUI UMAR JIBRAN (25, Male), underwent a heart health screen on 23/7/2024. Key findings include a Cardio C-Reactive Protein (hsCRP) level of 1.00 mg/L, which indicates an 'Average' cardiovascular risk according to the report's interpretation. Apolipoprotein B (Apo B) is 46.00 mg/dL, which is within the normal reference range but at the lower limit. A comprehensive risk assessment is severely hindered by the absence of numerous critical test results, including Fasting Glucose, Total Cholesterol, HDL, LDL, Triglycerides, and HbA1c, despite these tests being listed. Recommended actions include retesting hsCRP after 2-plus weeks, obtaining three serial samples for various cholesterol parameters, and completing the missing lipid and glucose panel results for a complete evaluation.",
+    "critical_alerts": [
+      {
+        "title": "Elevated hsCRP",
+        "dataPoint": "CARDIO C-REACTIVE PROTEIN (hsCRP): 1.00 mg/L",
+        "explanation": "Cardio C-Reactive Protein (hsCRP) is at the lower boundary of the 'Average' cardiovascular risk category (1-3 mg/L), indicating a slightly elevated risk compared to the 'Low' risk category (<1.00 mg/L).",
+        "level": "warning"
+      }
+    ],
+    "created_at": "2026-04-11T11:25:14.639Z",
+    "_id": "6ov536i1jxw",
+    "id": "kihd4uo1ks9"
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRAN",
+    "age": "25",
+    "gender": "Male",
+    "report_date": "23/7/2024",
+    "vitals": {
+      "hemoglobin": 1
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "Not reported (HbA1c reference: 4.00-5.60%, result missing)",
+      "blood_pressure": "Not reported",
+      "sugar": "Not reported (Fasting Glucose and Estimated Average Glucose results missing)",
+      "oxygen": "Not reported",
+      "heart_rate": "Not reported",
+      "cholesterol": "Apolipoprotein B: 46.00 mg/dL (Normal: 46 - 174 mg/dL); Other lipid profile components (Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, VLDL Cholesterol, Non-HDL Cholesterol) are listed but results are missing.",
+      "diagnosis": "Elevated hsCRP indicating average cardiovascular risk. Potential for Myocardial Infarction, Stroke, and Diabetes based on hsCRP levels. ASCVD risk stratification is recommended.",
+      "notes": "CARDIO CRP IN mg/L interpretation: 10 | Persistent elevation may represent Non-cardiovascular inflammation. It is recommended to test hsCRP levels 2 or more weeks apart and calculate the average for vascular risk assessment. High sensitivity C Reactive Protein (hsCRP) significantly improves cardiovascular risk assessment and is a strong predictor of future coronary events, Myocardial infarction, Stroke, and incident Diabetes. Measurements in the same patient can show physiological & analytical variations. Three serial samples 1 week apart are recommended for Total Cholesterol, Triglycerides, HDL & LDL Cholesterol. Lipid Association of India (LAI) recommends screening of all adults above 20 years for Atherosclerotic Cardiovascular Disease (ASCVD) risk factors, especially lipid profile. Indian population is at very high risk of developing ASCVD at an early age with poorer outcomes; ASCVD risk stratification helps identify high-risk individuals and guide therapy.",
+      "prescriptions": [],
+      "recommended_tests": [
+        "Repeat hsCRP levels 2 or more weeks apart and calculate the average.",
+        "Three serial samples 1 week apart for Total Cholesterol, Triglycerides, HDL, and LDL Cholesterol.",
+        "Comprehensive ASCVD risk factor screening, especially a complete lipid profile with all results.",
+        "Fasting Glucose and HbA1c with results."
+      ]
+    },
+    "risks": [
+      {
+        "type": "Elevated hsCRP",
+        "severity": "HIGH",
+        "value": "hsCRP: 1.00 mg/L",
+        "normal_range": "",
+        "explanation": "The hsCRP level of 1.00 mg/L exceeds the normal reference range of <1.00 mg/L and is categorized as 'Average' cardiovascular risk according to the report's interpretation."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "hsCRP is 1.00 mg/L (Normal: <1.00 mg/L), which is interpreted as 'Average' cardiovascular risk by the report."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Absence of results for crucial biomarkers (Fasting Glucose, full Lipid Profile, HbA1c) significantly limits a comprehensive risk assessment, potentially masking other risks."
+      }
+    ],
+    "missed_actions": [
+      "Obtain Fasting Glucose results — The test is listed but the result is missing, which is critical for diabetes risk assessment and overall metabolic health.",
+      "Obtain complete Lipid Profile results — Most components of the lipid profile (Total, HDL, LDL, Triglycerides, VLDL, Non-HDL Cholesterol) are listed but their results are missing, impeding a full ASCVD risk assessment.",
+      "Obtain HbA1c result — The test is listed but the result is missing, which is important for long-term glucose control assessment.",
+      "Obtain Estimated Average Glucose (eAG) result — The test is listed but the result is missing, which is complementary to HbA1c for glucose management."
+    ],
+    "risk_score": "MODERATE",
+    "ai_summary": "The patient, a 25-year-old male, presents with an hsCRP level of 1.00 mg/L, which indicates an 'Average' cardiovascular risk according to the provided interpretation (reference <1.00 mg/L). Apolipoprotein B is at the lower end of the normal range (46.00 mg/dL). A significant limitation of this report is the absence of results for several critical biomarkers, including Fasting Glucose, a comprehensive Lipid Profile (Total Cholesterol, HDL, LDL, Triglycerides, etc.), HbA1c, and Estimated Average Glucose. This prevents a complete and accurate assessment of the patient's metabolic and cardiovascular health. Recommended actions include repeating hsCRP and obtaining full lipid panel results, along with other missing glucose metrics, to establish a baseline and guide further management for ASCVD risk factors, especially given the patient's age and the noted high risk for ASCVD in the Indian population.",
+    "critical_alerts": [
+      {
+        "title": "Elevated hsCRP",
+        "dataPoint": "hsCRP: 1.00 mg/L",
+        "explanation": "The hsCRP level of 1.00 mg/L exceeds the normal reference range of <1.00 mg/L and is categorized as 'Average' cardiovascular risk according to the report's interpretation.",
+        "level": "warning"
+      }
+    ],
+    "created_at": "2026-04-11T11:57:00.225Z",
+    "_id": "ct9u19pgh77",
+    "id": "858su0jp6a3"
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRAN",
+    "age": "25",
+    "gender": "Male",
+    "report_date": "23/7/2024",
+    "vitals": {
+      "sugar": 70
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "N/A (General hemoglobin for anemia not reported)",
+      "blood_pressure": "N/A",
+      "sugar": "Fasting Glucose: Not reported (Reference: 70 - 100 mg/dL); HbA1c: Not reported (Reference: 4.00 - 5.60%)",
+      "oxygen": "N/A",
+      "heart_rate": "N/A",
+      "cholesterol": "Total Cholesterol: Not reported (Reference: 40 mg/dL), LDL Cholesterol, Direct: Not reported (Reference: <100 mg/dL), LDL Cholesterol (Calculated): Not reported (Reference: <100.00 mg/dL), VLDL Cholesterol (Calculated): Not reported (Reference: <30 mg/dL), Non-HDL Cholesterol (Calculated): Not reported (Reference: <130 mg/dL)",
+      "diagnosis": "N/A",
+      "notes": "CARDIO CRP IN mg/L | CARDIOVASCULAR RISK 10 | Persistent elevation may represent Non cardiovascular inflammation. Note: To assess vascular risk, it is recommended to test hsCRP levels 2 or more weeks apart and calculate the average. Comments: High sensitivity C Reactive Protein (hsCRP) significantly improves cardiovascular risk assessment as it is a strongest predictor of future coronary events. It reveals the risk of future Myocardial infarction and Stroke among healthy men and women, independent of traditional risk factors. It identifies patients at risk of first Myocardial infarction even with low to moderate lipid levels. The risk of recurrent cardiovascular events also correlates well with hsCRP levels. It is a powerful independent risk determinant in the prediction of incident Diabetes. Lipid Profile Note: 1. Measurements in the same patient can show physiological & analytical variations. Three serial samples 1 week apart are recommended for Total Cholesterol, Triglycerides, HDL & LDL Cholesterol. 2. Lipid Association of India (LAI) recommends screening of all adults above the age of 20 years for Atherosclerotic Cardiovascular Disease (ASCVD) risk factors especially lipid profile. ASCVD Risk Stratification & Treatment goals in Indian population: 1. Indians are at very high risk of developing ASCVD, they usually get the disease at an early age, have a more severe form of the disease and have poorer outcome as compared to the western populations 2. Many individuals remain asymptomatic before they get heart attack, ASCVD risk helps to identify high risk individuals even when there is no symptom related to heart disease 3. ASCVD risk category helps clinician to decide when to consider therapy and what should be the treatment goal.",
+      "prescriptions": [],
+      "recommended_tests": [
+        "Retest hsCRP levels 2 or more weeks apart to calculate the average for vascular risk assessment.",
+        "Perform three serial lipid profile samples (Total Cholesterol, Triglycerides, HDL & LDL Cholesterol) 1 week apart to account for physiological & analytical variations."
+      ]
+    },
+    "risks": [
+      {
+        "type": "Elevated hsCRP Level",
+        "severity": "HIGH",
+        "value": "CARDIO C-REACTIVE PROTEIN (hsCRP): 1.00 mg/L",
+        "normal_range": "",
+        "explanation": "The hsCRP level of 1.00 mg/L is at the lower end of the 'Average' cardiovascular risk category (1-3 mg/L), exceeding the 'Low' risk threshold of <1.00 mg/L. This indicates a potential increased risk for future coronary events."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "hsCRP is 1.00 mg/L (Bio. Ref. Interval: <1.00 mg/L for Low risk), falling into the 'Average' cardiovascular risk category (1-3 mg/L)."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "The report highlights that Indians are at very high risk of developing ASCVD at an early age."
+      },
+      {
+        "type": "Clinical risk factor",
+        "severity": "MODERATE",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Missing results for several key biomarkers (e.g., Fasting Glucose, full Lipid Profile, HbA1c) prevent a complete and accurate risk assessment."
+      }
+    ],
+    "missed_actions": [
+      "Obtain Fasting Glucose result. — The Fasting Glucose test was ordered, but the result is not reported, which is crucial for diabetes and metabolic risk assessment.",
+      "Obtain complete Lipid Profile results (Total Cholesterol, Triglycerides, HDL, LDL, VLDL, Non-HDL Cholesterol). — Multiple lipid profile tests were ordered, but their results are not reported, hindering a comprehensive cardiovascular risk assessment.",
+      "Obtain HbA1c result. — The HbA1c test was ordered, but the result is not reported, which is essential for assessing long-term blood sugar control and diabetes risk."
+    ],
+    "risk_score": "MODERATE",
+    "ai_summary": "The patient, a 25-year-old male, presents with an hsCRP level of 1.00 mg/L, which indicates an 'Average' cardiovascular risk. This finding is particularly noteworthy given the patient's age and the documented higher risk of Atherosclerotic Cardiovascular Disease (ASCVD) in the Indian population. However, a comprehensive health assessment is significantly limited by the absence of critical test results including Fasting Glucose, a complete Lipid Profile, and HbA1c. These missing data points are vital for evaluating metabolic health, lipid-related cardiovascular risk, and long-term glycemic control. It is strongly recommended to obtain these outstanding results and to re-evaluate hsCRP levels as advised in the report to form a complete clinical picture and guide appropriate interventions.",
+    "critical_alerts": [
+      {
+        "title": "Elevated hsCRP Level",
+        "dataPoint": "CARDIO C-REACTIVE PROTEIN (hsCRP): 1.00 mg/L",
+        "explanation": "The hsCRP level of 1.00 mg/L is at the lower end of the 'Average' cardiovascular risk category (1-3 mg/L), exceeding the 'Low' risk threshold of <1.00 mg/L. This indicates a potential increased risk for future coronary events.",
+        "level": "warning"
+      }
+    ],
+    "created_at": "2026-04-11T12:17:13.112Z",
+    "_id": "c1zjexby48r",
+    "id": "47yo7upag82"
+  },
+  {
+    "patient_name": "John Doe (Mock Data due to API Quota)",
+    "age": "45",
+    "gender": "Male",
+    "report_date": "2026-04-11",
+    "vitals": {
+      "hemoglobin": 14.2,
+      "blood_pressure": 120,
+      "sugar": 95,
+      "oxygen": 98,
+      "heart_rate": 72
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "14.2 g/dL",
+      "blood_pressure": "120/80 mmHg",
+      "sugar": "95 mg/dL",
+      "oxygen": "98%",
+      "heart_rate": "72 bpm",
+      "cholesterol": "185 mg/dL",
+      "diagnosis": "Routine checkup findings within normal limits.",
+      "notes": "Patient is healthy. API quota limit was reached so this is mock data.",
+      "prescriptions": [
+        "Multivitamins"
+      ],
+      "recommended_tests": [
+        "Annual blood panel"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Clinical risk factor",
+        "severity": "LOW",
+        "value": "",
+        "normal_range": "",
+        "explanation": "All vitals are within standard operating ranges."
+      }
+    ],
+    "missed_actions": [],
+    "risk_score": "LOW",
+    "ai_summary": "The patient report indicates stable vitals. Note: The API quota was exceeded; this is generated mock data for UI demonstration.",
+    "critical_alerts": [],
+    "created_at": "2026-04-11T12:28:40.389Z",
+    "_id": "1zp2n9ayzch",
+    "id": "dk49a6skz18"
+  },
+  {
+    "patient_name": "John Doe (Mock Data due to API Quota)",
+    "age": "45",
+    "gender": "Male",
+    "report_date": "2026-04-11",
+    "vitals": {
+      "hemoglobin": 14.2,
+      "blood_pressure": 120,
+      "sugar": 95,
+      "oxygen": 98,
+      "heart_rate": 72
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "14.2 g/dL",
+      "blood_pressure": "120/80 mmHg",
+      "sugar": "95 mg/dL",
+      "oxygen": "98%",
+      "heart_rate": "72 bpm",
+      "cholesterol": "185 mg/dL",
+      "diagnosis": "Routine checkup findings within normal limits.",
+      "notes": "Patient is healthy. API quota limit was reached so this is mock data.",
+      "prescriptions": [
+        "Multivitamins"
+      ],
+      "recommended_tests": [
+        "Annual blood panel"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Clinical risk factor",
+        "severity": "LOW",
+        "value": "",
+        "normal_range": "",
+        "explanation": "All vitals are within standard operating ranges."
+      }
+    ],
+    "missed_actions": [],
+    "risk_score": "LOW",
+    "ai_summary": "The patient report indicates stable vitals. Note: The API quota was exceeded; this is generated mock data for UI demonstration.",
+    "critical_alerts": [],
+    "created_at": "2026-04-11T12:45:36.998Z",
+    "_id": "wsb2mskdfrk",
+    "id": "57kqvspi49a"
+  },
+  {
+    "patient_name": "John Doe (Mock Data due to API Quota)",
+    "age": "45",
+    "gender": "Male",
+    "report_date": "2026-04-11",
+    "vitals": {
+      "hemoglobin": 14.2,
+      "blood_pressure": 120,
+      "sugar": 95,
+      "oxygen": 98,
+      "heart_rate": 72
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "14.2 g/dL",
+      "blood_pressure": "120/80 mmHg",
+      "sugar": "95 mg/dL",
+      "oxygen": "98%",
+      "heart_rate": "72 bpm",
+      "cholesterol": "185 mg/dL",
+      "diagnosis": "Routine checkup findings within normal limits.",
+      "notes": "Patient is healthy. API quota limit was reached so this is mock data.",
+      "prescriptions": [
+        "Multivitamins"
+      ],
+      "recommended_tests": [
+        "Annual blood panel"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Clinical risk factor",
+        "severity": "LOW",
+        "value": "",
+        "normal_range": "",
+        "explanation": "All vitals are within standard operating ranges."
+      }
+    ],
+    "missed_actions": [],
+    "risk_score": "LOW",
+    "ai_summary": "The patient report indicates stable vitals. Note: The API quota was exceeded; this is generated mock data for UI demonstration.",
+    "critical_alerts": [],
+    "created_at": "2026-04-11T12:51:01.635Z",
+    "_id": "kl6io2sz9t",
+    "id": "algzhpyxl4l"
+  },
+  {
+    "patient_name": "John Doe (Mock Data due to API Quota)",
+    "age": "45",
+    "gender": "Male",
+    "report_date": "2026-04-11",
+    "vitals": {
+      "hemoglobin": 14.2,
+      "blood_pressure": 120,
+      "sugar": 95,
+      "oxygen": 98,
+      "heart_rate": 72
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "14.2 g/dL",
+      "blood_pressure": "120/80 mmHg",
+      "sugar": "95 mg/dL",
+      "oxygen": "98%",
+      "heart_rate": "72 bpm",
+      "cholesterol": "185 mg/dL",
+      "diagnosis": "Routine checkup findings within normal limits.",
+      "notes": "Patient is healthy. API quota limit was reached so this is mock data.",
+      "prescriptions": [
+        "Multivitamins"
+      ],
+      "recommended_tests": [
+        "Annual blood panel"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Clinical risk factor",
+        "severity": "LOW",
+        "value": "",
+        "normal_range": "",
+        "explanation": "All vitals are within standard operating ranges."
+      }
+    ],
+    "missed_actions": [],
+    "risk_score": "LOW",
+    "ai_summary": "The patient report indicates stable vitals. Note: The API quota was exceeded; this is generated mock data for UI demonstration.",
+    "critical_alerts": [],
+    "created_at": "2026-04-11T12:51:25.897Z",
+    "_id": "rn3veem1yt9",
+    "id": "5qdee28xc7m"
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRANAge: 25 Years (Mocked)",
+    "age": "45",
+    "gender": "Male",
+    "report_date": "2026-04-11",
+    "vitals": {
+      "hemoglobin": 14.2,
+      "blood_pressure": 120,
+      "sugar": 95,
+      "oxygen": 98,
+      "heart_rate": 72
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "14.2 g/dL",
+      "blood_pressure": "120/80 mmHg",
+      "sugar": "95 mg/dL",
+      "oxygen": "98%",
+      "heart_rate": "72 bpm",
+      "cholesterol": "185 mg/dL",
+      "diagnosis": "Routine checkup findings within normal limits.",
+      "notes": "API quota limit reached. Basic extraction performed.",
+      "prescriptions": [
+        "Multivitamins"
+      ],
+      "recommended_tests": [
+        "Annual blood panel"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Clinical risk factor",
+        "severity": "LOW",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Unable to perform deep AI risk analysis at this time."
+      }
+    ],
+    "missed_actions": [],
+    "risk_score": "LOW",
+    "ai_summary": "The patient report was processed using fallback extraction because the AI provider returned an error. Some clinical insights may be missing.",
+    "critical_alerts": [],
+    "created_at": "2026-04-11T12:55:28.584Z",
+    "_id": "1f8ommnx963",
+    "id": "owd4vaf2olg"
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRANAge: 25 Years (Mocked)",
+    "age": "45",
+    "gender": "Male",
+    "report_date": "2026-04-11",
+    "vitals": {
+      "hemoglobin": 14.2,
+      "blood_pressure": 120,
+      "sugar": 95,
+      "oxygen": 98,
+      "heart_rate": 72
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "14.2 g/dL",
+      "blood_pressure": "120/80 mmHg",
+      "sugar": "95 mg/dL",
+      "oxygen": "98%",
+      "heart_rate": "72 bpm",
+      "cholesterol": "185 mg/dL",
+      "diagnosis": "Routine checkup findings within normal limits.",
+      "notes": "API quota limit reached. Basic extraction performed.",
+      "prescriptions": [
+        "Multivitamins"
+      ],
+      "recommended_tests": [
+        "Annual blood panel"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Clinical risk factor",
+        "severity": "LOW",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Unable to perform deep AI risk analysis at this time."
+      }
+    ],
+    "missed_actions": [],
+    "risk_score": "LOW",
+    "ai_summary": "The patient report was processed using fallback extraction because the AI provider returned an error. Some clinical insights may be missing.",
+    "critical_alerts": [],
+    "created_at": "2026-04-11T13:58:49.933Z",
+    "_id": "33kcq3xfs0d",
+    "id": "pka1cmvf049"
+  },
+  {
+    "patient_name": "Patient (Name Hidden) (Mocked)",
+    "age": "45",
+    "gender": "Male",
+    "report_date": "2026-04-11",
+    "vitals": {
+      "hemoglobin": 14.2,
+      "blood_pressure": 120,
+      "sugar": 95,
+      "oxygen": 98,
+      "heart_rate": 72
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "14.2 g/dL",
+      "blood_pressure": "120/80 mmHg",
+      "sugar": "95 mg/dL",
+      "oxygen": "98%",
+      "heart_rate": "72 bpm",
+      "cholesterol": "185 mg/dL",
+      "diagnosis": "Routine checkup findings within normal limits.",
+      "notes": "API quota limit reached. Basic extraction performed.",
+      "prescriptions": [
+        "Multivitamins"
+      ],
+      "recommended_tests": [
+        "Annual blood panel"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Clinical risk factor",
+        "severity": "LOW",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Unable to perform deep AI risk analysis at this time."
+      }
+    ],
+    "missed_actions": [],
+    "risk_score": "LOW",
+    "ai_summary": "The patient report was processed using fallback extraction because the AI provider returned an error. Some clinical insights may be missing.",
+    "critical_alerts": [],
+    "created_at": "2026-04-11T14:16:22.638Z",
+    "_id": "r7e7hhzqs5",
+    "id": "cyipr95yiy"
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRANAge: 25 Years (Mocked)",
+    "age": "45",
+    "gender": "Male",
+    "report_date": "2026-04-11",
+    "vitals": {
+      "hemoglobin": 14.2,
+      "blood_pressure": 120,
+      "sugar": 95,
+      "oxygen": 98,
+      "heart_rate": 72
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "14.2 g/dL",
+      "blood_pressure": "120/80 mmHg",
+      "sugar": "95 mg/dL",
+      "oxygen": "98%",
+      "heart_rate": "72 bpm",
+      "cholesterol": "185 mg/dL",
+      "diagnosis": "Routine checkup findings within normal limits.",
+      "notes": "API quota limit reached. Basic extraction performed.",
+      "prescriptions": [
+        "Multivitamins"
+      ],
+      "recommended_tests": [
+        "Annual blood panel"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Clinical risk factor",
+        "severity": "LOW",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Unable to perform deep AI risk analysis at this time."
+      }
+    ],
+    "missed_actions": [],
+    "risk_score": "LOW",
+    "ai_summary": "The patient report was processed using fallback extraction because the AI provider returned an error. Some clinical insights may be missing.",
+    "critical_alerts": [],
+    "created_at": "2026-04-11T14:16:36.349Z",
+    "_id": "ylduhxc2d59",
+    "id": "cs80b3n9gdl"
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRANAge: 25 Years (Mocked)",
+    "age": "45",
+    "gender": "Male",
+    "report_date": "2026-04-11",
+    "vitals": {
+      "hemoglobin": 14.2,
+      "blood_pressure": 120,
+      "sugar": 95,
+      "oxygen": 98,
+      "heart_rate": 72
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "14.2 g/dL",
+      "blood_pressure": "120/80 mmHg",
+      "sugar": "95 mg/dL",
+      "oxygen": "98%",
+      "heart_rate": "72 bpm",
+      "cholesterol": "185 mg/dL",
+      "diagnosis": "Routine checkup findings within normal limits.",
+      "notes": "API quota limit reached. Basic extraction performed.",
+      "prescriptions": [
+        "Multivitamins"
+      ],
+      "recommended_tests": [
+        "Annual blood panel"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Clinical risk factor",
+        "severity": "LOW",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Unable to perform deep AI risk analysis at this time."
+      }
+    ],
+    "missed_actions": [],
+    "risk_score": "LOW",
+    "ai_summary": "The patient report was processed using fallback extraction because the AI provider returned an error. Some clinical insights may be missing.",
+    "critical_alerts": [],
+    "created_at": "2026-04-11T14:38:24.218Z",
+    "_id": "c9yem63wf6f",
+    "id": "e2se2inpl2t"
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRANAge: 25 Years (Mocked)",
+    "age": "45",
+    "gender": "Male",
+    "report_date": "2026-04-11",
+    "vitals": {
+      "hemoglobin": 14.2,
+      "blood_pressure": 120,
+      "sugar": 95,
+      "oxygen": 98,
+      "heart_rate": 72
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "14.2 g/dL",
+      "blood_pressure": "120/80 mmHg",
+      "sugar": "95 mg/dL",
+      "oxygen": "98%",
+      "heart_rate": "72 bpm",
+      "cholesterol": "185 mg/dL",
+      "diagnosis": "Routine checkup findings within normal limits.",
+      "notes": "API quota limit reached. Basic extraction performed.",
+      "prescriptions": [
+        "Multivitamins"
+      ],
+      "recommended_tests": [
+        "Annual blood panel"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Clinical risk factor",
+        "severity": "LOW",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Unable to perform deep AI risk analysis at this time."
+      }
+    ],
+    "missed_actions": [],
+    "risk_score": "LOW",
+    "ai_summary": "The patient report was processed using fallback extraction because the AI provider returned an error. Some clinical insights may be missing.",
+    "critical_alerts": [],
+    "created_at": "2026-04-11T14:44:47.613Z",
+    "_id": "8n5r1ijnqga",
+    "id": "tgpad64mnt"
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRANAge: 25 Years (Mocked)",
+    "age": "45",
+    "gender": "Male",
+    "report_date": "2026-04-11",
+    "vitals": {
+      "hemoglobin": 14.2,
+      "blood_pressure": 120,
+      "sugar": 95,
+      "oxygen": 98,
+      "heart_rate": 72
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "14.2 g/dL",
+      "blood_pressure": "120/80 mmHg",
+      "sugar": "95 mg/dL",
+      "oxygen": "98%",
+      "heart_rate": "72 bpm",
+      "cholesterol": "185 mg/dL",
+      "diagnosis": "Routine checkup findings within normal limits.",
+      "notes": "API quota limit reached. Basic extraction performed.",
+      "prescriptions": [
+        "Multivitamins"
+      ],
+      "recommended_tests": [
+        "Annual blood panel"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Clinical risk factor",
+        "severity": "LOW",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Unable to perform deep AI risk analysis at this time."
+      }
+    ],
+    "missed_actions": [],
+    "risk_score": "LOW",
+    "ai_summary": "The patient report was processed using fallback extraction because the AI provider returned an error. Some clinical insights may be missing.",
+    "critical_alerts": [],
+    "created_at": "2026-04-11T15:02:57.547Z",
+    "_id": "b3p8kwycf3",
+    "id": "q6gig4cdquq",
+    "doctor_notes": [
+      {
+        "note": "give 2 injections ",
+        "doctor": "gayatri",
+        "timestamp": "2026-04-11T15:03:53.945Z"
+      }
+    ]
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRANAge: 25 Years (Mocked)",
+    "age": "45",
+    "gender": "Male",
+    "report_date": "2026-04-11",
+    "vitals": {
+      "hemoglobin": 14.2,
+      "blood_pressure": 120,
+      "sugar": 95,
+      "oxygen": 98,
+      "heart_rate": 72
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "14.2 g/dL",
+      "blood_pressure": "120/80 mmHg",
+      "sugar": "95 mg/dL",
+      "oxygen": "98%",
+      "heart_rate": "72 bpm",
+      "cholesterol": "185 mg/dL",
+      "diagnosis": "Routine checkup findings within normal limits.",
+      "notes": "API quota limit reached. Basic extraction performed.",
+      "prescriptions": [
+        "Multivitamins"
+      ],
+      "recommended_tests": [
+        "Annual blood panel"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Clinical risk factor",
+        "severity": "LOW",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Unable to perform deep AI risk analysis at this time."
+      }
+    ],
+    "missed_actions": [],
+    "risk_score": "LOW",
+    "ai_summary": "The patient report was processed using fallback extraction because the AI provider returned an error. Some clinical insights may be missing.",
+    "critical_alerts": [],
+    "created_at": "2026-04-11T15:05:39.271Z",
+    "_id": "x7ge90w28md",
+    "id": "r1rub5anhv",
+    "doctor_notes": [
+      {
+        "note": "hi",
+        "doctor": "gayatri",
+        "timestamp": "2026-04-11T15:06:00.000Z"
+      }
+    ]
+  },
+  {
+    "patient_name": "FAROOQUI UMAR JIBRANAge: 25 Years (Mocked)",
+    "age": "45",
+    "gender": "Male",
+    "report_date": "2026-04-11",
+    "vitals": {
+      "hemoglobin": 14.2,
+      "blood_pressure": 120,
+      "sugar": 95,
+      "oxygen": 98,
+      "heart_rate": 72
+    },
+    "clinical_snapshot": {
+      "hemoglobin": "14.2 g/dL",
+      "blood_pressure": "120/80 mmHg",
+      "sugar": "95 mg/dL",
+      "oxygen": "98%",
+      "heart_rate": "72 bpm",
+      "cholesterol": "185 mg/dL",
+      "diagnosis": "Routine checkup findings within normal limits.",
+      "notes": "API quota limit reached. Basic extraction performed.",
+      "prescriptions": [
+        "Multivitamins"
+      ],
+      "recommended_tests": [
+        "Annual blood panel"
+      ]
+    },
+    "risks": [
+      {
+        "type": "Clinical risk factor",
+        "severity": "LOW",
+        "value": "",
+        "normal_range": "",
+        "explanation": "Unable to perform deep AI risk analysis at this time."
+      }
+    ],
+    "missed_actions": [],
+    "risk_score": "LOW",
+    "ai_summary": "The patient report was processed using fallback extraction because the AI provider returned an error. Some clinical insights may be missing.",
+    "critical_alerts": [],
+    "created_at": "2026-04-11T15:06:51.565Z",
+    "_id": "yhg8fm9gzy",
+    "id": "6flzrrvzhsa",
+    "doctor_notes": [
+      {
+        "note": ",rrs",
+        "doctor": "farooq",
+        "timestamp": "2026-04-11T15:07:20.628Z"
+      }
+    ]
+  }
+]

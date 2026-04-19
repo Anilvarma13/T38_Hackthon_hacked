@@ -1,0 +1,26 @@
+[
+  {
+    "id": "zivk2j10cz",
+    "username": "gayatri",
+    "password": "$2a$10$MP2nLpXl1yQeLrpBn2wVvukrpbFHl87LNTAyO9mm.s7VgJYcbKaqa",
+    "created_at": "2026-04-11T10:46:41.881Z"
+  },
+  {
+    "id": "uxeqosbrxz",
+    "username": "harshita",
+    "password": "$2a$10$q9ry/DNBXhM4tjMCMQBK.OkT9DBrBz7v26Pi3NHMqgBPYxrOHSBeu",
+    "created_at": "2026-04-11T10:46:41.881Z"
+  },
+  {
+    "id": "ofbcff3p97",
+    "username": "anil",
+    "password": "$2a$10$nUFnbk0tOz1BIl8vwDv4eesaXe/LffiehClr3brKim2ZmE/MmnSda",
+    "created_at": "2026-04-11T10:46:41.865Z"
+  },
+  {
+    "id": "ksvb0udfjx",
+    "username": "farooq",
+    "password": "$2a$10$b84BJRYd24uwUYo.A09DmeZ389OZn9elUncyTRJjEXVAAUaYYTm7C",
+    "created_at": "2026-04-11T10:46:41.881Z"
+  }
+]
